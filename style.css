@@ -6,15 +6,10 @@
     --darkblue: hsl(218, 44%, 22%);
   }
 
-html {
+body {
     font-size: 15px;
     font-family: "Outfit", sans-serif;
-    font-weight: 400, 700;
     background-color: var(--lightgray);
-}
-
-body {
-    display: grid;
 }
 
 .card {
@@ -22,15 +17,17 @@ body {
     place-items: center;
     text-align: center;
     background-color: var(--white);
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13em;
     max-width: 305px;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card img {
-    width: 285px;
-    margin: 10px;
-    border-radius: 20px;
+    width: 275px;
+    margin: 15px;
+    border-radius: 15px;
 }
 
 .card h2 {
@@ -41,6 +38,8 @@ body {
 .card p {
     color: var(--grayishblue);
     width: 250px;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
